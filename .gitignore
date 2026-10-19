@@ -1,0 +1,46 @@
+
+### Java compiled files ###
+*.class
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+.kotlin/
+
+# Keep these exceptions only if you intentionally store generated
+# output inside source/test directories
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Logs and temporary files ###
+*.log
+*.tmp
